@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+body, main, picture, h1, p, a{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+body{
+    display: grid;
+    min-height: 100vh;
+    place-content: center;
+    background: hsl(217, 54%, 11%) ;
+    font-family: 'Outfit', sans-serif;
+}
+.principal{
+    background: hsl(216, 50%, 16%);
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;  
+}
+
+.img{
+    max-width: 100%;
+    border-radius: 10px;
+}
+.img:hover{
+    background:hsl(178, 100%, 50%) ;
+    background-image: url(images/icon-view.svg);
+}
+
+.descricao{
+    background: hsl(216, 50%, 16%);   
+    margin: 10px 0px; 
+}
+.titulo{
+    color: white;
+    margin: 10px 0px; 
+    font-weight: 500;
+}
+.titulo:hover{
+    color: hsl(178, 100%, 50%);
+}
+.conteudo{
+   color: hsl(215, 51%, 70%);
+   margin: 10px 0px; 
+   line-height: 1.5;
+}
+.eth{
+    background-image: url(./images/icon-ethereum.svg);
+    background-repeat: no-repeat;
+    font-weight: 600;
+    color: hsl(178, 100%, 50%);
+    padding: 0px 20px;
+    margin: 10px 0px;
+    
+}
+.day{
+    background-image: url(images/icon-clock.svg);
+    background-repeat: no-repeat;
+    color: hsl(215, 51%, 70%);
+    padding: 0px 0px 0px 25px;
+    place-items: center;
+   
+}
+.referencia{
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 10px 0px; 
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.criador{
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 10px 0px; 
+    align-content: center;
+    align-items: center;
+}
+.avatar-img{
+    width: 30px;
+    height: 30px;
+    border: 1.5px solid #fff;
+    border-radius: 20px;
+    
+}
+.avatar{
+    margin: 10px 0px;
+    padding: 0px 15px;
+    color: hsl(215, 51%, 70%); 
+}
+.line{
+    margin: 10px 0px;
+    border-color: hsl(215, 51%, 70%);
+}
+.autor{
+    color: white;
+    padding: 0px 5px;
+}
+.autor:hover{
+    color:hsl(178, 100%, 50%) ;
+}
+
+footer{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+   font-size: 11px; text-align: center; 
+   color: hsl(228, 45%, 44%);
+}
+
